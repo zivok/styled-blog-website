@@ -31,3 +31,60 @@
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
+
+@media (min-width:901px) {
+    #post-0 {
+        display: flex;
+        flex-direction: row-reverse;
+        margin:  1rem auto 4rem;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    #post-0 a {
+        width: 100%;
+        max-width: 450px;
+        padding-left: .5rem;
+    }
+
+    #post-0 .card-image {
+        min-width: 300px;
+        width: auto;
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+    }
+    #post-0 .card-content {
+        min-width: 200px;
+        max-width: 300px;
+    }
+
+    .card {
+        height: 520px;
+    }
+}
+
+@media (min-width:901px) and (max-width:1150px) {
+    #posts-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-auto-rows: auto;
+    }
+
+    #post-0 {
+        grid-area: 1/1/2/3;
+    }
+}
+
+@media (min-width:1151px) {
+    #posts-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-auto-rows: auto;
+    }
+
+    #post-0 {
+        grid-area: 1/1/2/4;
+    }
+}

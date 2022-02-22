@@ -15,3 +15,33 @@ header {
     left: 1rem;
     font-size: 2rem;
 }
+
+@media (min-width:901px) {   
+    header h1 {
+        margin: auto;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    .top-nav {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        background-color: white;
+        padding: 0;
+        border-bottom: .5px solid #f5f5f5;
+    }
+
+    .top-nav > li {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-bottom: 1px solid transparent;
+        line-height: 48px;
+    }
+
+    .top-nav > li:hover {
+        border-bottom: 1px solid #ff0a58;
+    }
+}

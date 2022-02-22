@@ -45,3 +45,10 @@ footer ul {
     position: relative;
     top: 1px;
 }
+
+@media (min-width:901px) {
+    .footer-top {
+        display: flex;
+        justify-content: space-around;
+    }
+}
