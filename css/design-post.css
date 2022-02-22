@@ -1,0 +1,18 @@
+@import url('./post.css');
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-image {
+    background-image: url("./images/1313252.jpeg");/* Photo by Dids from Pexels */
+}
+
+.primary-color-bg {
+    background-color: #E50B4F;
+}
+
+.primary-light-color-bg {
+    background-color: #F52969;
+}

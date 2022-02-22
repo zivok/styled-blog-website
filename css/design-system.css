@@ -84,6 +84,8 @@ span {
     height: 100px;
     border-radius: 100%;
     margin-bottom: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .primary-color {
@@ -223,7 +225,6 @@ ul, ol {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    max-width: 640px;
     margin-bottom: 24px;
 }
 
@@ -249,7 +250,6 @@ code {
 
 .card {
     border-radius: 10px;
-    width: 350px;
 }
 
 .card-content {
@@ -258,7 +258,7 @@ code {
 
 .card-image {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     min-height: 250px;
     border-radius: 10px 10px 0 0;

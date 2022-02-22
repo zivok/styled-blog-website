@@ -1,0 +1,15 @@
+@import url("./aside.css");
+
+aside.about
+.avatar {
+    background-image: url("../images/9751512.jpeg");/* Photo by Anna Rye from Pexels */
+}
+
+aside.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+aside.about h5 {
+    margin-bottom: 0;
+}

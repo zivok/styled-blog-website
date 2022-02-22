@@ -1,0 +1,12 @@
+@import url("./aside.css");
+
+aside
+.topics-links > .topic-link {
+    border-bottom: 0.1px solid #FFFFFF;
+}
+
+aside
+.topic-link h6 {
+    margin: 0.5rem 0 0.5rem 0;
+    font-weight: 600;
+}

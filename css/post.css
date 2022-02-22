@@ -1,0 +1,47 @@
+@import url("./design-system.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+@import url("./layout.css");
+@import url("./header.css");
+@import url("./aside-about.css");
+@import url("./aside-topics.css");
+@import url("./footer.css");
+
+.content {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+article 
+.card-image {
+    background-image: url("../images/1313252.jpeg");/* Photo by Dids from Pexels */
+}
+
+.post-body {
+    width: 100%;
+}
+
+.social-media-links ul {
+    list-style: none;
+}
+
+.post
+.share-bar {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.post
+.share-bar
+button {
+    margin: 0 .2rem;
+}
+
+.post
+.share-bar
+.fa {
+    font-size: 16px;
+}

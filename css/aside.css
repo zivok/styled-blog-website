@@ -1,0 +1,11 @@
+aside {
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem 1rem 0;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

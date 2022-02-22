@@ -1,0 +1,31 @@
+#posts-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    margin: 1rem;
+}
+
+#post-0 .card-image {
+    background-image: url("../images/1313252.jpeg");/* Photo by Dids from Pexels */
+}
+
+#post-1 .card-image {
+    background-image: url("../images/50719.jpeg");/* Photo by Anthony from Pexels */
+}
+
+#post-2 .card-image {
+    background-image: url("../images/1571734.jpeg");/* Photo by Engin Akyurt from Pexels */
+}
+
+#post-3 .card-image {
+    background-image: url("../images/5829590.jpeg");/* Photo by Mohan Nannapaneni from Pexels */
+}
+
+.container-load-posts {
+    text-align: center;
+}

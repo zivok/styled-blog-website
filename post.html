@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/post.css">
     <title>Personal Blog</title>
 </head>
 
 <body>
     <div id="container">
         <header>
-            <h1 class="text-secundary"><i class="fa fa-bars"></i>Personal Blog</a></h1>
+            <h1 class="text-secundary"><i class="fa fa-bars"></i>Personal Blog</h1>
             <ul class="nav top-nav">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./design.html">Design System</a></li>
@@ -22,54 +22,49 @@
             </ul>
         </header>
         <div class="content">
-            <div id="posts-list">
-                <div id="post-0" class="card">
-                    <a href="./post.html">
-                        <div class="card-image"></div>
-                    </a>
-                    <div class="card-content">
-                        <button class="small-btn">Science</button>
-                        <h2><a href="./post.html">Nullam at ultrices nulla</a></h2>
-                        <div><span class="text-muted">Feb 17, 2022</span></div>
-                    </div>
+            <article class="post">
+                <div class="card-content">
+                    <button class="small-btn">Science</button>
+                    <h1>Nullam at ultrices nulla</h1>
+                    <div><span class="text-muted">Apr 11, 2022</span></div>
                 </div>
-                <div id="post-1" class="card">
-                    <a href="./post.html">
-                        <div class="card-image"></div>
-                    </a>
-                    <div class="card-content">
-                        <button class="small-btn">Science</button>
-                        <h2><a href="./post.html">Praesent a elementum purus</a></h2>
-                        <div><span class="text-muted">Feb 10, 2022</span></div>
-                    </div>
-                </div>
-                <div id="post-2" class="card">
-                    <a href="./post.html">
-                        <div class="card-image"></div>
-                    </a>
-                    <div class="card-content">
-                        <button class="small-btn">Space</button>
-                        <h2><a href="./post.html">Ut ultricies vel metus vel vestibulum</a></h2>
-                        <div><span class="text-muted">Jan 23, 2022</span></div>
-                    </div>
-                </div>
-                <div id="post-3" class="card">
-                    <a href="./post.html">
-                        <div class="card-image"></div>
-                    </a>
-                    <div class="card-content">
-                        <button class="small-btn">Technology</button>
-                        <h2><a href="./post.html">Quisque hendrerit orci</a></h2>
-                        <div><span class="text-muted">Jan 15, 2022</span></div>
-                    </div>
-                </div>
+                <div class="card-image"></div>
+                <ul class="share-bar">
+                    <li><button class="medium-btn"><i class="fa fa-facebook"></i></button></li>
+                    <li><button class="medium-btn"><i class="fa fa-twitter"></i></button></li>
+                    <li><button class="medium-btn"><i class="fa fa-linkedin"></i></button></li>
+                    <li><button class="medium-btn"><i class="fa fa-envelope"></i></button></li>
+                </ul>
 
-            </div>
-            <div class="container-load-posts">
-                <button class="large-btn">Load More Posts</button>
-            </div>
+                <div class="post-body">
+                    <p>Pellentesque sit amet ex blandit, vehicula leo eu, <strong>blandit sem</strong>. Duis ipsum odio, ultrices quis
+                        nisl quis, rhoncus accumsan lacus. <mark>Aenean dignissim sem augue, non vehicula est efficitur nec.
+                        Aliquam luctus lacinia nisi, at scelerisque ligula tristique ut.</mark> Sed sit amet est ullamcorper,
+                        suscipit orci a, interdum neque.</p>
+                    <blockquote>
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam dolor aliquid porro iste odit, temporibus libero quaerat numquam, totam dolores inventore, ipsa fugit! Vel aperiam ullam consequatur harum maiores."
+                    </blockquote>
+                    <h2>Etiam eleifend consectetur est ac accumsan.</h2>
+                    <p>Nulla lectus lacus, <em>tempus in ullamcorper quis</em>, consectetur at
+                        mauris. Mauris euismod turpis sit amet laoreet laoreet. Sed quis neque venenatis, suscipit nunc
+                        dictum, sollicitudin felis. Etiam eleifend consectetur est ac accumsan.</p>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </ul>
+                    <code>
+.cup {
+    background-color: #FFFFFF;
+}
+                    </code>
+                    <h3>Voluptates aperiam corporis odit omnis similique laborum, impedit iste.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ducimus laboriosam nostrum reprehenderit perferendis? Blanditiis doloribus veniam facilis dolorum. Corrupti aliquam eos amet eligendi, atque odio consectetur reprehenderit placeat est.</p>
+                </div>
+            </article>
+
         </div>
-
         <aside class="topics bg-primary">
             <h5>Topics</h5>
             <ul class="topics-links">
@@ -90,8 +85,7 @@
         <aside class="about bg-primary">
             <div class="avatar"></div>
             <h5>Jane Doe</h5>
-            <p class="text-light">Ut placerat quam quis hendrerit malesuada. Nullam in iaculis justo, et pulvinar quam.
-                Integer in magna
+            <p class="text-light">Ut placerat quam quis hendrerit malesuada. Nullam in iaculis justo, et pulvinar quam. Integer in magna
                 massa.</p>
         </aside>
         <footer>

@@ -1,0 +1,6 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr repeat(2, auto) auto;
+    height: 100vh;
+}
