@@ -46,6 +46,10 @@ footer ul {
     top: 1px;
 }
 
+.heart {
+    color: #E50B4F;
+}
+
 @media (min-width:901px) {
     .footer-top {
         display: flex;
